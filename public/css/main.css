@@ -1,0 +1,27 @@
+body{
+    margin:0 0;
+    padding:0 0;
+}
+
+nav{
+    background-color: rgb(2, 25, 141);
+    width: 100%;
+    padding: 5px;
+}
+nav ul{
+    list-style: none;
+    display: flex; 
+    justify-content: flex-start; 
+}
+
+nav li{
+    margin-right: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: rgb(169, 191, 237);
+}
