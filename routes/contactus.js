@@ -6,5 +6,4 @@ router.get(`/contactus`, contactUsController.getContactUsPage);
 
 router.post(`/contactus`, contactUsController.showSuccessPage);
 
-router.post("/success", contactUsController.getSucessPage);
 module.exports = router;

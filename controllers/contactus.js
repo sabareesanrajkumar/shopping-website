@@ -8,7 +8,3 @@ exports.getContactUsPage = (req, res, next) => {
 exports.showSuccessPage = (req, res, next) => {
   res.redirect("/success");
 };
-
-exports.getSucessPage = (req, res, next) => {
-  res.sendFile(path.join(rootDir, "views", "success.html"));
-};
