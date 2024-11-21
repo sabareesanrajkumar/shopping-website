@@ -36,6 +36,7 @@ form{
     padding: 1.5rem;
     border: 0.02rem solid rgb(211, 206, 206);
     border-radius: 0.5rem;
+    margin-top: 15px;
 }
 form button{
     all: unset;

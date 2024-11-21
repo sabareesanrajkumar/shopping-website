@@ -5,6 +5,7 @@ const path = require("path");
 const shopRoutes = require("./routes/shop");
 const addProductRoutes = require("./routes/addproduct");
 const contactUsRoutes = require("./routes/contactus");
+const successPageRoutes = require("./routes/success");
 
 const errorController = require("./controllers/error");
 
@@ -14,6 +15,7 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(shopRoutes);
 app.use(addProductRoutes);
 app.use(contactUsRoutes);
+app.use(successPageRoutes);
 
 app.use(errorController.get404);
 
